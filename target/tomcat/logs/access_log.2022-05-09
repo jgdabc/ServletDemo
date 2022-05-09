@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [09/May/2022:09:04:15 +0800] "GET /request-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [09/May/2022:09:04:15 +0800] "GET /request-demo/ HTTP/1.1" 404 977 http-bio-8080-exec-3 11
+0:0:0:0:0:0:0:1 - - [09/May/2022:09:04:15 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [09/May/2022:09:04:28 +0800] "GET /request-demo HTTP/1.1" 302 - http-bio-8080-exec-6 0
+0:0:0:0:0:0:0:1 - - [09/May/2022:09:04:28 +0800] "GET /request-demo/ HTTP/1.1" 404 977 http-bio-8080-exec-8 0
+0:0:0:0:0:0:0:1 - - [09/May/2022:09:04:51 +0800] "POST /request-demo/loginServlet HTTP/1.1" 302 - http-bio-8080-exec-9 11042
+0:0:0:0:0:0:0:1 - - [09/May/2022:09:04:52 +0800] "GET /request-demo/register.html HTTP/1.1" 304 - http-bio-8080-exec-10 148
+0:0:0:0:0:0:0:1 - - [09/May/2022:11:02:21 +0800] "GET /request-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [09/May/2022:11:02:21 +0800] "GET /request-demo/ HTTP/1.1" 404 977 http-bio-8080-exec-3 12
+0:0:0:0:0:0:0:1 - - [09/May/2022:11:04:04 +0800] "POST /request-demo/loginServlet HTTP/1.1" 302 - http-bio-8080-exec-5 80984
+0:0:0:0:0:0:0:1 - - [09/May/2022:11:04:04 +0800] "GET /request-demo/register.html HTTP/1.1" 304 - http-bio-8080-exec-7 101
+0:0:0:0:0:0:0:1 - - [09/May/2022:11:22:47 +0800] "POST /request-demo/registerServlet HTTP/1.1" 200 18 http-bio-8080-exec-9 143
